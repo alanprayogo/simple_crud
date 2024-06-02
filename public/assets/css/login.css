@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #435ebe;
+    font-family: 'Poppins' sans-serif;
+}
+
+.container {
+    display: flex;
+    box-sizing: border-box;
+}
+
+.container .col-poster {
+    width: 40%;
+    height: 100vh;
+    background-color: #435ebe;
+    border-radius: 0 20px 20px 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.col-poster .ayat {
+    text-align: center;
+}
+
+.col-poster .login-img {
+    margin: auto;
+}
+
+.container .col-form {
+    width: 60%;
+    height: 100vh;
+    /* background-color: blue; */
+    background-color: #F5F5F5;
+    border-radius: 20px 0 0 20px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.card {
+    /* background-color: blue; */
+    width: 90%;
+    height: 97.5%;
+    margin: auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 85px;
+}
+
+.card h1 {
+    font-size: 1.75em;
+}
+
+.form-login {
+    /* background-color: red; */
+    width: 80%;
+}
+
+.input-control {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-control input {
+    border: none;
+    background-color: #F5F5F5;
+	display: block;
+	font-size: 12px;
+	padding: 10px;
+    border-radius: 7px;
+}
+
+.login-btn button {
+    background-color: #435ebe;
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.login-btn button {
+    text-decoration: none;
+}
+
+.navigasi-login {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigasi-login a {
+    text-decoration: none;
+}
